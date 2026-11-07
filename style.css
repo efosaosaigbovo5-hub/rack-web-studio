@@ -20,6 +20,13 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: clip;
+}
+
 body {
     background: var(--background);
     color: var(--white);
@@ -456,6 +463,9 @@ padding: 65px 6%;
 
 @media (max-width: 700px) {
 
+  .nav-links a {
+    font-size: 14px;
+  }
     .navbar {
         flex-wrap: wrap;
         padding: 18px 6%;
@@ -499,6 +509,16 @@ padding: 65px 6%;
 .faq-item h3 {
     font-size: 16px;
 }
+      .services {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 70px 6%;
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
 }
 /* PROJECT LINK HOVER */
 
