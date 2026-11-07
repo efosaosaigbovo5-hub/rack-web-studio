@@ -495,7 +495,9 @@ padding: 65px 6%;
 }
 
 .process-grid {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr !important;
+    width: 100%;
     gap: 18px;
 }
   .faq {
